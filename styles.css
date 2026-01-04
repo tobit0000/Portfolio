@@ -320,3 +320,56 @@
     transform: translateY(-8px);
     box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
 }
+
+/* ===== Page projet ===== */
+
+.project-page {
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px rgba(125, 157, 207, 0.2);
+    padding: 3rem;
+    max-width: 1000px;
+    margin: 6rem auto 3rem auto;
+}
+
+/* Cadre image */
+.project-image-frame {
+    width: 100%;
+    height: 420px;
+    background: #f2f6fb;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Image adaptative */
+.project-image-frame img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.project-page h2 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.project-page p {
+    color: #5a6b7d;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+.project-section {
+    margin-top: 2rem;
+}
+
+.project-actions {
+    margin-top: 2.5rem;
+}
