@@ -94,6 +94,9 @@
         }
 
         .hero p {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
             font-size: 1.25rem;
             color: #5a6b7d;
             margin-bottom: 2rem;
